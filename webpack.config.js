@@ -21,7 +21,7 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.jsx?$/,
+                test: /\.js?$/,
                 loaders: ['babel?cacheDirectory'],
                 include: PATHS.app
             }
