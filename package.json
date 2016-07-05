@@ -1,0 +1,35 @@
+{
+  "name": "listings-test",
+  "version": "1.0.0",
+  "description": "A test to create a listing page",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MatthewAnstey/listings-idea.git"
+  },
+  "author": "Matthew Anstey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewAnstey/listings-idea/issues"
+  },
+  "dependencies": {
+    "webpack": "^1.12.14",
+    "html-webpack-plugin": "^2.15.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-survivejs-kanban": "^0.3.3",
+    "css-loader": "^0.23.1",
+    "karma-webpack": "^1.7.0",
+    "npm-install-webpack-plugin": "^4.0.0",
+    "style-loader": "^0.13.1"
+  }
+}
