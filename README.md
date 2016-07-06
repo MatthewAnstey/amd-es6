@@ -6,7 +6,7 @@ The app/index.js file contains a simple es6 class
 
 Webpack exports this as an AMD modue.
 
-This is referenced in dist/index.html where another file vendor/magento.js that uses this umd module to alert 500.
+This is referenced in dist/index.html where another file vendor/magento.js that uses this AMD module to alert 500.
 
 
 #How do I run it?
