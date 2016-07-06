@@ -2,7 +2,7 @@
 
 Proof of concept that webbpack can export ES6 modules as a AMD module. This is primarly so requireJS can consume it.
 
-The app/index.js file contains a simple es6 class
+The app/index.js file contains a simple ES6 class
 
 Webpack exports this as an AMD modue.
 
